@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exclusive Reward Awaits!</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+    .container {
+      background: #fff;
+      padding: 40px 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #333;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #666;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    button {
+      background-color: #ff5722;
+      color: white;
+      border: none;
+      padding: 15px 40px;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #e64a19;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Your Gift is Ready!</h1>
+    <p>Click below to unlock your exclusive reward now.</p>
+    <button onclick="goToOffer()">Claim Now</button>
+  </div>
+
+  <!-- PropellerAds Push Script Placeholder -->
+  <script>
+    (function() {
+      var script = document.createElement('script');
+      script.src = 'YOUR_PUSH_SCRIPT_URL'; // Replace with your PropellerAds script URL
+      document.head.appendChild(script);
+    })();
+  </script>
+
+  <!-- Redirect Logic -->
+  <script>
+    function goToOffer() {
+      window.location.href = 'YOUR_SHORTENED_LINK'; // Replace with your shortened CPA link
+    }
+  </script>
+
+</body>
+</html>
